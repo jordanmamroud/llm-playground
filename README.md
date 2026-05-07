@@ -4,9 +4,11 @@ Throwaway space for unstructured CLI sandboxing. Nothing here is tracked. If som
 
 ## Layout
 
-- `claude/CLAUDE.md` — write whatever you want; open Claude Code from inside `claude/`
-- `codex/AGENTS.md` — same idea, for Codex CLI
+- `CLAUDE.md` — open Claude Code from this repo root
+- `AGENTS.md` — for Codex CLI
 - `notes.md` — one-liner observations as you go
+
+Both files live at the root. Claude reads `CLAUDE.md`, Codex reads `AGENTS.md` — they don't interfere. If you later want multiple playgrounds (e.g., `claude-vanilla/` vs `claude-with-rules/`), add subfolders then.
 
 ## Stripped context checklist
 
